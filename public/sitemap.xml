@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/</loc>
+    <loc>http://djtaco.github.io/djtaco/</loc>
     <lastmod>2015-07-30T15:18:15-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/macbook-tablet-mode/</loc>
+    <loc>http://djtaco.github.io/djtaco/post/macbook-tablet-mode/</loc>
     <lastmod>2015-07-30T15:18:15-07:00</lastmod>
   </url>
   

@@ -1,3 +1,4 @@
+baseurl = "http://djtaco.github.io/djtaco"
 languageCode = "en-us"
 title = "djtaco.com"
 contentdir = "content"
