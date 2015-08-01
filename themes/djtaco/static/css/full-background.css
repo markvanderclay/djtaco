@@ -1,0 +1,57 @@
+/* background setup */
+.background {
+    background-repeat:no-repeat;
+    /* custom background-position */
+    background-position:50% 50%;
+    /* ie8- graceful degradation */
+    background-position:50% 50%9 !important;
+}
+
+/* fullscreen setup */
+html, body {
+    /* give this to all tags from html to .fullscreen */
+    height:100%;
+    padding: 0;
+    margin: 0;
+}
+.fullscreen,
+.content-a {
+    width:100%;
+    min-height:100%;
+}
+.not-fullscreen,
+.not-fullscreen .content-a,
+.fullscreen.not-overflow,
+.fullscreen.not-overflow .content-a {
+    height:100%;
+    overflow:hidden;
+}
+
+/* content centering styles */
+.content-a {
+    display:table;
+}
+.content-b {
+    display:table-cell;
+    position:relative;
+    vertical-align:middle;
+    text-align:center;
+}
+.content-b h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 150px;
+	color: #ffffff;
+	text-align:center;
+    text-shadow: 2px 2px #2f4c70;
+    padding:0px;
+    margin: 0px;
+}
+.content-b h3 {
+    font-family: 'Sanchez', serif;
+    font-size: 30px;
+    color: #2f4c70;
+    text-align:center;
+    padding: 0px;
+    margin: 0px;
+    /*text-shadow: 2px 2px #2f4c70;*/
+}

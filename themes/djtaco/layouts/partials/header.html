@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title> {{ .Title }} &middot; {{ .Site.Title }} </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/full-background.css">
+  <link href='http://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Nixie+One|Waiting+for+the+Sunrise|Reenie+Beanie|Just+Me+Again+Down+Here|Shadows+Into+Light+Two|Amatic+SC:400,700|Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+
+  <!-- JS -->
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+  <!-- Icons -->
+  <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.ico">-->
+
+  <!-- RSS -->
+  <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  
+  <!-- jQuery full image background -->
+  <script>
+    $(document).ready(function() {
+      /* fix vertical when not overflow
+      call fullscreenFix() if .fullscreen content changes */
+      function fullscreenFix(){
+          var h = $('body').height();
+          // set .fullscreen height
+          $(".content-b").each(function(i){
+              if($(this).innerHeight() <= h){
+                  $(this).closest(".fullscreen").addClass("not-overflow");
+              }
+          });
+      }
+      $(window).resize(fullscreenFix);
+      fullscreenFix();
+
+      /* resize background images */
+      function backgroundResize(){
+          var windowH = $(window).height();
+          $(".background").each(function(i){
+              var path = $(this);
+              // variables
+              var contW = path.width();
+              var contH = path.height();
+              var imgW = path.attr("data-img-width");
+              var imgH = path.attr("data-img-height");
+              var ratio = imgW / imgH;
+              // overflowing difference
+              var diff = parseFloat(path.attr("data-diff"));
+              diff = diff ? diff : 0;
+              // remaining height to have fullscreen image only on parallax
+              var remainingH = 0;
+              if(path.hasClass("parallax")){
+                  var maxH = contH > windowH ? contH : windowH;
+                  remainingH = windowH - contH;
+              }
+              // set img values depending on cont
+              imgH = contH + remainingH + diff;
+              imgW = imgH * ratio;
+              // fix when too large
+              if(contW > imgW){
+                  imgW = contW;
+                  imgH = imgW / ratio;
+              }
+              //
+              path.data("resized-imgW", imgW);
+              path.data("resized-imgH", imgH);
+              path.css("background-size", imgW + "px " + imgH + "px");
+          });
+      }
+      $(window).resize(backgroundResize);
+      $(window).focus(backgroundResize);
+      backgroundResize();
+    });
+    
+  </script>
+</head>

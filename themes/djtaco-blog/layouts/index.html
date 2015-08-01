@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+
+<main>
+  {{ range .Data.Pages }}
+    <div class="post">
+      <h1 class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+      <h4 class="post-date">
+        {{ .Date.Format "Jan 2, 2006" }} <span class="white">@</span> {{ .Date.Format "3:04 PM" }}
+      </h4>
+      <div class="content">{{ .Summary }}</div>
+      {{ if .Truncated }}
+        <div class="read-more">
+          <a href="{{ .RelPermalink }}">Read More &rarr;</a>
+        </div>
+      {{ end }}
+    </div>
+  {{end}}
+</main>
+
+{{ partial "footer.html" . }}

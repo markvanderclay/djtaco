@@ -1,0 +1,6 @@
+baseurl = "http://djtaco.com/"
+languageCode = "en-us"
+title = "djtaco.com"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"

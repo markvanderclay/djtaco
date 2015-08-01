@@ -1,0 +1,36 @@
+{{ template "theme/partials/header.html" . }}
+    <body>
+        <div class="fullscreen background" style="background:url({{ .Site.BaseUrl }}/img/color-background.png) fixed;" data-img-width="1200" data-img-height="900">
+            <div class="content-a">
+                <div class="content-b">
+                    <h1>
+                        djtaco
+                        <!--<img src="{{ .Site.BaseUrl }}/img/waving-guy-blue.png" height="200px">
+                        <img src="{{ .Site.BaseUrl }}/img/waving-guy-white.png" height="200px">-->
+                        <img src="{{ .Site.BaseUrl }}/img/waving-guy-color.png" height="200px">
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="fullscreen background" style="background:url({{ .Site.BaseUrl }}/img/tweed-background.png) fixed repeat;">
+            <div class="content-a">
+                <div class="content-b">
+                    <h1>
+                        <img src="{{ .Site.BaseUrl }}/img/djtaco-logo-v3.svg" height="200px">
+                    </h1>
+                    <h3 style="color: #78ff00">let my people grow</h3>
+                </div>
+            </div>
+        </div>
+        <section class="not-fullscreen">
+            <div class="content-a">
+                    {{ range .Data.Pages }}
+                        <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+                        {{ .Date.Format "Mon, Jan 2, 2006" }}
+                        {{ .Content }}
+                    {{ end }}
+            </div>
+        </section>
+
+    </body>
+</html>
