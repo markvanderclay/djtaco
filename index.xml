@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>djtaco.com</title>
-    <link>/</link>
+    <link>http://djtaco.github.io/djtaco/</link>
     <description>Recent content on djtaco.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Jul 2015 15:18:15 -0700</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://djtaco.github.io/djtaco/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The tablet you never knew you had</title>
-      <link>/post/macbook-tablet-mode/</link>
+      <link>http://djtaco.github.io/djtaco/post/macbook-tablet-mode/</link>
       <pubDate>Thu, 30 Jul 2015 15:18:15 -0700</pubDate>
       
-      <guid>/post/macbook-tablet-mode/</guid>
+      <guid>http://djtaco.github.io/djtaco/post/macbook-tablet-mode/</guid>
       <description>&lt;p&gt;It is not so surprising that a new Apple iPad is just around the corner. Many are assuming that it is the Pro version. Bigger screen, multitasking, maybe even a dedicated stylus. Sure, these features scream &lt;em&gt;productivity in a light package&lt;/em&gt;, but that is only assumptions. Who wants to wait a couple months for the actual product?&lt;/p&gt;
 
 &lt;p&gt;I decided to do some investigation on which was the right tablet. I wanted something in the Apple ecosystem, as that is where all my other tech products reside. I wish the iPad Air 2 was just a tad bit more capable. What I really want, is to be able to take my slim, light, portable Macbook and push the screen all the way back and use it as a tablet. Hmm, a tablet mode? Surely Apple didn&amp;rsquo;t hide this feature.&lt;/p&gt;
