@@ -1,6 +1,6 @@
 +++
 date = "2015-07-30T15:18:15-07:00"
-draft = true
+draft = false
 title = "The tablet you never knew you had"
 
 +++
