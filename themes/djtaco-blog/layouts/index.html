@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
 <main>
-  {{ range .Data.Pages }}
+  {{ range .Paginator.Pages }}
     <div class="post">
       <h1 class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
       <h4 class="post-date">
@@ -15,6 +15,7 @@
       {{ end }}
     </div>
   {{end}}
+  {{ partial "pagination.html" . }}
 </main>
 
 {{ partial "footer.html" . }}

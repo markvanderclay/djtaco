@@ -64,8 +64,33 @@ a, a:hover, a:visited {
 .read-more a {
   color: #78ff00;
   text-decoration: none;
-  margin: 0px 0px 50px 0px;
+  margin: 0px 0px 10px 0px;
   font-weight: 100;
+}
+
+.pagination {
+  border-top: 1px #ffffff solid;
+  padding: 10px 0px 70px 0px;
+  width: 600px;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+.left {
+  float: left;
+  width: 33.3%;
+}
+
+.right {
+  float: right;
+  width: 33.3%;
+  text-align: right;
+}
+
+.center {
+  float: left;
+  width: 33.3%;
+  text-align: center;
 }
 
 .white {
