@@ -4,7 +4,7 @@ draft = false
 title = "Donnie Dark Soundtrack"
 
 +++
-One of my favorite movies is Donnie Darko. I love the score, I love the soundtrack, I love it all (the Director's Cut does __NOT__ exist). The 80s soundtrack mixed with a beautifully composed score companies an amazing film. Though it is a bit out of date, I deem a review necessary.<!--more-->
+One of my favorite movies is Donnie Darko. I love the score, I love the soundtrack, I love it all (the Director's Cut does __NOT__ exist). The 80s soundtrack, mixed with a beautifully composed score, accompanies an amazing film. Though it is a bit out of date, I deem a review necessary.<!--more-->
 
 It's 2005, as a young adult in college, I found myself at a college apartment at a friend's apartment. As most might do in my position would do, I indulged in some adult beverages. With a cozy group, I found that my inhibitions were thrown right out the window. With an evil glare, I watched the girl I thought who was interested into me gingerly flirt with my nemesis.
 
