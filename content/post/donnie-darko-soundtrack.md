@@ -14,8 +14,8 @@ After I exited my aural portal, I returned to reality. Calm, collected, joyous. 
 
 I was Robocop. Walking the walk, and talking the talk. This wasn't for the people, as my audience was asleep. This was my artistic expression that was spawned from the album I listened to.
 
->> Editors note:
-I was unaware anyone was really awake as I took out these actions. I scanned the room as if I was Robocop, making all the authentic sounds. One sleepy onlooker stifled their laugh I found out later.
+> _Editors note:
+I was unaware anyone was really awake as I took out these actions. I scanned the room as if I was Robocop, making all the authentic sounds. One sleepy onlooker stifled their laugh I found out later._
 
 Next thing I know, the sun blinded me as I took in the stench of my hockey equipment. Sprawled out, inverted, on the stairs, the resident of the apartment stepped over me as they left for work. I could only muster up a small wave, before I closed my eyes with a smile on my face.
 
